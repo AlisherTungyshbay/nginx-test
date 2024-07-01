@@ -1,0 +1,77 @@
+@import url("header/header.css");
+@import url("article/article.css");
+@import url("authorizathion/register.css");
+@import url("authorizathion/login.css");
+@import url("footer/footer.css");
+@import url("font-awesome/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body > article, body > header{
+    margin: 0.8em 13.2em;
+}
+
+main {
+    flex: 1;
+}
+
+.cancelToSelect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;700&display=swap');
+}
+
+@font-face {
+    font-family: 'Valio Omnes Semibold';
+    src: url('ValioOmnes-Semibold.eot');
+    src: url('ValioOmnes-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('ValioOmnes-Semibold.woff') format('woff'),
+    url('ValioOmnes-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+/* media */
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    * {
+        color: black;
+    }
+}
+ 
+/* For Tablet View */
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
+    * {
+        color: black;
+    }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-width: 480px) 
+    and (orientation: portrait) {
+    * {
+        color: black;
+    }
+}

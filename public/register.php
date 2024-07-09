@@ -55,6 +55,9 @@
             </form>
         </div>
     </div>
+
+    <?php include '../src/View/templates/footer.php'; ?>
+    
 </body>
 <!-- scripts -->
 <script src="/styles/font-awesome/all.js"></script>
